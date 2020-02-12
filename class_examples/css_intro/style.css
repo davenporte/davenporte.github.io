@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i&display=swap');
+
+h1 {
+  /* color: rgb (0,50,50); */
+  color: teal;
+  /* color:#bada55 */
+  /* reminder */
+  text-align: left;
+  font-size: 36pt;
+  font-size: 400%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: #d5ff00;
+  line-height: 1.65
+}
+
+p {
+  font-weight: 900;
+}
+
+b,
+strong {font-weight: 200;
+}
+
+a {
+  color: teal;
+  /* text decoration: none; removes the underline */
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: pink;
+}
+
+ul {
+  list-style: georgian;
+}

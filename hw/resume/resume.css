@@ -1,0 +1,12 @@
+body {
+  font-family: sans-serif;
+  font-size: 21px;
+  line-height: 1.65;
+}
+
+h3 {
+  color: pink;
+}
+.my_name {
+  font-size: 120px;
+}

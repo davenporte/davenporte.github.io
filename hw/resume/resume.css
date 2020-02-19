@@ -3,8 +3,7 @@
 body {
   font-size: 21px;
   line-height: 1.65;
-  background-color: black;
-  color: white;
+  color: black;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -26,4 +25,9 @@ a {
 
 a:hover {
   font-size: 30px;
+}
+
+img {
+  align-items: center;
+  /* this does not work */
 }

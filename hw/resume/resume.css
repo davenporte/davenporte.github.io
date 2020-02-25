@@ -1,21 +1,34 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,700,700i|Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,700,700i|Roboto&display=swap');
 
 body {
   font-size: 21px;
   line-height: 1.65;
-  color: black;
+  color: #00004d;
+  background-color: #d8d8ff;
+  font-family: 'Roboto', monospace;
+}
+
+.my_name {
   font-family: 'Raleway', sans-serif;
 }
 
-h1 {
-  line-height: 0;
-}
-
 h3 {
-  color: pink;
+  color: #ff7272;
 }
 .my_name {
   font-size: 120px;
+}
+
+.education {
+  border: 3px solid #ffa5a5;
+}
+
+.research_experience {
+  border: 3px solid #ffa5a5;
+}
+
+.hobbies_interests {
+  border: 3px solid #ffa5a5;
 }
 
 a {
@@ -27,7 +40,17 @@ a:hover {
   font-size: 30px;
 }
 
+.headshot {
+  display: block;
+  width: 260px;
+  margin: 0 auto;
+}
+
 img {
-  align-items: center;
-  /* this does not work */
+  border: 5px solid #00004d;
+  filter: contrast(120%);
+}
+
+.about_me {
+  font-size: 18px;
 }

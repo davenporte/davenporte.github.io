@@ -6,6 +6,7 @@ body {
 .grid-container-1 {
   display: grid;
   width: 400px;
+  /* this width is calculated for two 150px pictures with 100px padding */
   height: 400px;
 }
 

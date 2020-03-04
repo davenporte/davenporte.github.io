@@ -1,0 +1,9 @@
+@media only screen and (max-width: 767px) {
+/* What goes here? Everything u want to look dif on your phone */
+/* Put in here the css for things that need to change at this size. */
+body {
+  background-color: pink;
+}
+
+}
+  /* can put print instead of screen to see how it will display when u print */

@@ -60,3 +60,21 @@ body {
   grid-column: 4/5;
   grid-row: 1/2;
 }
+
+.grid-container-3, .grid-container-4, .grid-container-5, .grid-container-6 {
+  display: grid;
+  width: 900px;
+  height: 250px;
+}
+
+.hike1-text, .hike2-img, .hike3-text, .hike4-img {
+  width: 450px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.hike1-img, .hike2-text, .hike3-img, .hike4-text {
+  width: 450px;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}

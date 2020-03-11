@@ -5,9 +5,9 @@ body {
 
 .grid-container-1 {
   display: grid;
-  width: 400px;
+  width: 350px;
   /* this width is calculated for two 150px pictures with 100px padding */
-  height: 400px;
+  height: 350px;
 }
 
 .g1-img-1 {

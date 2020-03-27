@@ -3,6 +3,10 @@ body {
   margin: 0 auto;
 }
 
+.grid-container-1, .grid-container-2, .grid-container-3, .grid-container-4, .grid-container-5 {
+  padding-bottom: 50px;
+}
+
 .grid-container-1 {
   display: grid;
   width: 900px;
@@ -38,27 +42,54 @@ body {
 .grid-container-2, .grid-container-3, .grid-container-4, .grid-container-5 {
   display: grid;
   width: 900px;
-  height: 320px;
+  height: 400px;
 }
 
-.difficulty_right {
-  text-align: right;
+h3 {
+  padding-bottom: -50px;
+}
+
+.difficulty_left {
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
 
 .hikename_right {
   text-align: right;
 }
 
-.hike1-text, .hike2-img, .hike3-text, .hike4-img {
-  width: 450px;
-  height: 320px;
-  grid-column: 1/2;
+.difficulty_right {
+  grid-column: 2/3;
   grid-row: 1/2;
 }
 
-.hike1-img, .hike2-text, .hike3-img, .hike4-text {
+.hike1-text, .hike3-text {
+  width: 450px;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.hike2-img, .hike4-img {
+  float: right;
+  width: 400px;
+  height: 400px;
+  grid-column: 1/2;
+  grid-row: 1/3;
+  padding-right: 50px;
+}
+
+.hike2-text, .hike4-text {
   width: 450px;
   height: 320px;
   grid-column: 2/3;
-  grid-row: 1/2;
+  grid-row: 2/3;
+}
+
+.hike1-img, .hike3-img {
+  float: right;
+  width: 400px;
+  height: 400px;
+  grid-column: 2/3;
+  grid-row: 1/3;
+  padding-left: 50px;
 }

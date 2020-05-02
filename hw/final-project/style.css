@@ -1,0 +1,67 @@
+body {
+  max-width: 900px;
+}
+
+#headerpic {
+  height: 450px;
+  width: auto;
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#about {
+  text-align: center;
+  display: inline-block;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.distraction-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-column-gap: 50px;
+  justify-content: space-evenly;
+}
+
+img {
+  max-height: 400px;
+  height: auto;
+}
+
+#distraction1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+#cap1 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+#distraction2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+#cap2 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+#distraction3 {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+
+#cap3 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}

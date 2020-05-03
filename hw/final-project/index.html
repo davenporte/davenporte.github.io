@@ -12,11 +12,23 @@
 
     <body>
         <header>
+            <nav>
+                <a href="#about">About</a>
+                <a href="resume.pdf">Resume</a>
+                <a href="#wellness">Wellness</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Featured</button>
+                    <div class="dropdown-content">
+                        <a href="#distraction">Distraction Magazine</a>
+                        <a href="#biostrap">Biostrap</a>
+                        <a href="#offwhite">Nike x Off-White</a>
+                        <a href="#tmh">The Miami Hurricane</a>
+                    </div>
+                </div>
+                <a href="#design">Design</a>
+            </nav>
             <h1 id=title>E L OI S E <br>
                 DA V ENP O RT</h1>
-            <nav>
-
-            </nav>
         </header>
         <main>
             <img id=headerpic src="images/640x360.png" alt="placeholder">
@@ -44,7 +56,7 @@
             </section>
             <section id=featured>
                 <h2>Featured</h2>
-                <h3><a href="http://www.distractionmagazine.com/">Distraction Magazine</a></h3>
+                <h3 id=distraction><a href="http://www.distractionmagazine.com/">Distraction Magazine</a></h3>
                 <div class="distraction-grid-container">
                     <img id=distraction1 src="images/distraction1.JPG" alt="Image in Distraction Magazine">
                     <p id=cap1>Eloise Davenport and Haley Lanzoni by Kristian DelRosario for Distraction Magazine October 2019.</p>
@@ -53,14 +65,14 @@
                     <img id=distraction3 src="images/distraction3.JPG" alt="Image in Distractio Magazine">
                     <p id=cap3>Eloise Davenport by Kristian DelRosario for Distraction Magazine October 2019.</p>
                 </div>
-                <h3><a href="https://biostrap.com/">Biostrap</a></h3>
+                <h3 id=biostrap><a href="https://biostrap.com/">Biostrap</a></h3>
                 <div class="biostrap-grid-container">
                     <img id=biostrap1 src="images/biostrap1.JPG" alt="Biostrap Ad Image">
                     <p id=biocap1>Eloise Davenport for Biostrap by Roberto Matteo.</p>
                     <img id=biostrap2 src="images/biostrap3.JPG" alt="Biostrap Ad Image">
                     <p id=biocap2>Eloise Davenport, Amanda Medlock, and Andrés Preschel for Biostrap by Roberto Matteo.</p>
                 </div>
-                <h3>Nike x Off-White "Track & Field" Launch</h3>
+                <h3 id=offwhite>Nike x Off-White "Track & Field" Launch</h3>
                 <div class="off-grid-container">
                     <img id=off1 src="images/offwhite1.JPG" alt="Image of Stretching in Off-White Track & Field collection">
                     <p id=offcap1>Nike Track & Field c/o Virgil Abloh "ATHLETE IN PROGRESS" Launch event. Randall's Island, NY 2019 by Steven John Irby.</p>
@@ -71,7 +83,7 @@
                     <img id=off4 src="images/offwhite2.JPG" alt="Image of Athletes in Off-White Track & Field Collection">
                     <p id=offcap4>Eloise Davenport for Nike x Off-White Track & Field Launch by Steven John Irby.</p>
                 </div>
-                <h3><a href="#">The Miami Hurricane</a></h3>
+                <h3 id=tmh><a href="#">The Miami Hurricane</a></h3>
                 <div class="tmh-grid-container">
                     <img id=tmh1 src="images/640x360.png" alt="TMH Feature screenshot">
                     <p id=tmhcap>Poem by Eloise Davenport published in the May 2020 Senior Package of The Miami Hurricane.</p>
@@ -79,12 +91,32 @@
             </section>
             <section id=design>
                 <h2>Design</h2>
-                <h3><a href="https://www.instagram.com/p/B2uMcj3giOQ/?hl=en">Plant Based Gang x Nike Bodega Tee</a></h3>
+                <h3 id=pbg><a href="https://www.instagram.com/p/B2uMcj3giOQ/?hl=en">Plant Based Gang x Nike Bodega Tee</a></h3>
                 <img id=pbg-pic src="images/pbgbodegatee.png" alt="Image of Plant Based Gang Bodega Tee">
                 <p id=pbg-text>Bodega design for Joe Holder's Plant Based Gang. Inspired by the "Everybody eats" philosophy, over 200 meals served per shirt purchased. C/o Christina Radford.</p>
             </section>
-
         </main>
+
+        <footer>
+            <div class="contact">
+                <a id=email href="mailto:eloise.davenport@gmail.com">
+                    <img src="images/mail.svg" alt="Email" width="31" height="31">
+                </a>
+                <a id=instagram href="https://www.instagram.com/eloisesdavenport/?hl=en">
+                    <img src="images/instagram.svg" alt="Instagram" width="30" height="30">
+                </a>
+                <a id=linkedin href="https://linkedin.com/in/eloise-davenport">
+                    <img src="images/linkedin.svg" alt="LinkedIn" width="30" height="30">
+                </a>
+                <a id=twitter href="https://twitter.com/_theplaza">
+                    <img src="images/twitter.png" alt="Twitter" width="30" height="30">
+                </a>
+                <a id=medium href="https://medium.com/@eloise.davenport">
+                    <img src="images/medium.png" alt="Medium" width="30" height="30">
+                </a>
+            </div>
+            <p>© 2020 Eloise Davenport</p>
+        </footer>
 
     </body>
 

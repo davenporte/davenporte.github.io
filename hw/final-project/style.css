@@ -1,5 +1,51 @@
+<style>@import url('https://fonts.googleapis.com/css?family=Overpass&display=swap');
+
+</style>nav {
+  text-align: right;
+  color: #797468;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  color: #797468;
+  background-color: #FAFAFA;
+  border: none;
+  text-decoration: none;
+  font-family: 'Overpass', sans-serif;
+  font-size: 16px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 body {
   max-width: 1200px;
+  font-family: 'Overpass', sans-serif;
+  background-color: #FAFAFA;
 }
 
 h1 {
@@ -10,10 +56,15 @@ h1 {
 h2 {
   font-size: 50px;
   text-align: center;
+  color: #797468
 }
 
 h3 {
   font-size: 25px;
+}
+
+#distraction, #biostrap, #offwhite, #tmh, #pbg {
+  padding-left: 10px;
 }
 
 #headerpic {
@@ -42,6 +93,57 @@ h3 {
 a {
   text-decoration: none;
   color: black;
+  padding-right: 5px;
+}
+
+.wellness-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-column-gap: auto;
+  justify-content: center;
+  margin: 5%;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+
+#ocho-title {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  margin: auto;
+}
+
+#ocho-text {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  margin: 5%;
+  text-align: center;
+}
+
+#holyfit-title {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin: auto;
+}
+
+#holyfit-text {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  margin: 5%;
+  text-align: center;
+}
+
+#personal-title {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  margin: auto;
+}
+
+#personal-text {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  margin: 5%;
+  text-align: center;
 }
 
 .distraction-grid-container {
@@ -69,6 +171,7 @@ a {
   grid-row: 2/3;
   font-size: 12px;
   margin-right: 10%;
+  font-family: serif;
 }
 
 #distraction2 {
@@ -83,6 +186,7 @@ a {
   grid-row: 2/3;
   font-size: 12px;
   margin-right: 10%;
+  font-family: serif;
 }
 
 #distraction3 {
@@ -97,6 +201,7 @@ a {
   grid-row: 2/3;
   font-size: 12px;
   margin-right: 10%;
+  font-family: serif;
 }
 
 .biostrap-grid-container {
@@ -123,6 +228,7 @@ a {
   grid-row: 2/3;
   font-size: 12px;
   margin-right: 10%;
+  font-family: serif;
 }
 
 #biostrap2 {
@@ -137,6 +243,7 @@ a {
   grid-row: 2/3;
   font-size: 12px;
   margin-right: 10%;
+  font-family: serif;
 }
 
 .off-grid-container {
@@ -163,6 +270,7 @@ a {
   font-size: 12px;
   margin-right: 10%;
   padding-bottom: 15%;
+  font-family: serif;
 }
 
 #off2 {
@@ -178,6 +286,7 @@ a {
   font-size: 12px;
   margin-right: 10%;
   padding-bottom: 15%;
+  font-family: serif;
 }
 
 #off3 {
@@ -192,6 +301,7 @@ a {
   grid-row: 4/5;
   font-size: 12px;
   margin-right: 10%;
+  font-family: serif;
 }
 
 #off4 {
@@ -206,6 +316,7 @@ a {
   grid-row: 4/5;
   font-size: 12px;
   margin-right: 10%;
+  font-family: serif;
 }
 
 .tmh-grid-container {
@@ -231,6 +342,7 @@ a {
   grid-row: 2/3;
   font-size: 12px;
   margin-right: 10%;
+  font-family: serif;
 }
 
 #pbg-pic {
@@ -245,8 +357,9 @@ a {
 #pbg-text {
   text-align: center;
   display: inline-block;
+  font-family: serif;
   font-size: 12px;
   margin-left: 30%;
   margin-right: 30%;
-  margin-bottom: 30%;
+  margin-bottom: 15%;
 }

@@ -30,7 +30,7 @@
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: black;
+  color: #797468;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -39,6 +39,10 @@
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.dropdown-content a:hover {
+  color: #F9374D;
 }
 
 body {
@@ -55,7 +59,7 @@ h1 {
 h2 {
   font-size: 50px;
   text-align: center;
-  color: #797468
+  color: #797468;
 }
 
 h3 {
@@ -84,8 +88,8 @@ h3 {
   margin-bottom: 30%;
 }
 
-#resume {
-  color: #F9374D;
+#learnmore {
+  color: #797468;
   text-decoration: underline;
 }
 
@@ -102,7 +106,7 @@ a {
   grid-column-gap: auto;
   justify-content: center;
   margin: 5%;
-  margin-bottom: 10%;
+  margin-bottom: 20%;
   margin-top: 10%;
 }
 
@@ -153,7 +157,7 @@ a {
   justify-content: center;
   align-content: center;
   margin: 5%;
-  margin-bottom: 10%;
+  margin-bottom: 15%;
   /* this isn't aligning the biostrap pics vertically */
   /* how do i get images centered vertically and horizontally in the grid- i want it to line up w other pics and w the captions */
 }
@@ -211,7 +215,7 @@ a {
   justify-content: space-evenly;
   align-content: center;
   margin: 5%;
-  margin-bottom: 10%;
+  margin-bottom: 22%;
 }
 
 #biostrap1 {
@@ -253,7 +257,7 @@ a {
   justify-content: space-evenly;
   align-content: center;
   margin: 5%;
-  margin-bottom: 10%;
+  margin-bottom: 20%;
 }
 
 #off1 {
@@ -308,6 +312,7 @@ a {
   grid-row: 3/4;
   max-height: 300px;
   width: auto;
+  padding-left: 15%;
 }
 
 #offcap4 {
@@ -315,6 +320,7 @@ a {
   grid-row: 4/5;
   font-size: 12px;
   margin-right: 10%;
+  padding-left: 15%;
   font-family: serif;
 }
 
@@ -326,7 +332,7 @@ a {
   justify-content: space-evenly;
   align-content: center;
   margin: 5%;
-  margin-bottom: 10%;
+  margin-bottom: 15%;
 }
 
 #tmh1 {

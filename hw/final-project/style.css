@@ -315,7 +315,7 @@ a {
   grid-row: 3/4;
   max-width: 62%;
   height: auto;
-  padding-left: 12%;
+  padding-left: 13%;
 }
 
 #offcap4 {
@@ -323,7 +323,8 @@ a {
   grid-row: 4/5;
   font-size: 12px;
   margin-right: 10%;
-  padding-left: 15%;
+  padding-left: 13%;
+  padding-right: 13%;
   font-family: serif;
 }
 

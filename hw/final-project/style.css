@@ -91,6 +91,7 @@ h3 {
 #learnmore {
   color: #797468;
   text-decoration: underline;
+  /* display: none; */
 }
 
 a {
@@ -158,8 +159,10 @@ a {
   align-content: center;
   margin: 5%;
   margin-bottom: 15%;
-  /* this isn't aligning the biostrap pics vertically */
-  /* how do i get images centered vertically and horizontally in the grid- i want it to line up w other pics and w the captions */
+}
+
+#distraction {
+  margin-top: 10%;
 }
 
 #distraction1 {
@@ -351,8 +354,8 @@ a {
 }
 
 #pbg-pic {
-  max-height: 400px;
-  width: auto;
+  max-width: 40%;
+  height: auto;
   display: block;
   margin: auto;
   margin-top: 5%;

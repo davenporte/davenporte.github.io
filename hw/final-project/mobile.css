@@ -29,12 +29,12 @@
     grid-template-columns: 1fr;
   }
 
-  #holyfit-title {
+  #ocho-title {
     grid-column: 1/2;
     grid-row: 3/4;
   }
 
-  #holyfit-text {
+  #ocho-text {
     grid-column: 1/2;
     grid-row: 4/5;
   }

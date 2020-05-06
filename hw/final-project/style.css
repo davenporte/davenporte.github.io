@@ -111,26 +111,26 @@ a {
   margin-top: 10%;
 }
 
-#ocho-title {
+#academia-title {
   grid-column: 1/2;
   grid-row: 1/2;
   margin: auto;
 }
 
-#ocho-text {
+#academia-text {
   grid-column: 1/2;
   grid-row: 2/3;
   margin: 5%;
   text-align: center;
 }
 
-#holyfit-title {
+#ocho-title {
   grid-column: 2/3;
   grid-row: 1/2;
   margin: auto;
 }
 
-#holyfit-text {
+#ocho-text {
   grid-column: 2/3;
   grid-row: 2/3;
   margin: 5%;

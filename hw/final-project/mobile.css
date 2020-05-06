@@ -1,6 +1,18 @@
 @media only screen and (max-width: 767px) {
   h1 {
-    font-size: 30px;
+    font-size: 27px;
+  }
+
+  nav {
+    font-size: 10px;
+  }
+
+  .dropbtn {
+    font-size: 10px;
+  }
+
+  .dropdown {
+    font-size: 8px;
   }
 
   h2 {
@@ -42,7 +54,6 @@
   #personal-title {
     grid-column: 1/2;
     grid-row: 5/6;
-    margin: auto;
   }
 
   #personal-text {

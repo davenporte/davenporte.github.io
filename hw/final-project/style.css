@@ -86,16 +86,19 @@ h3 {
   margin-left: 20%;
   margin-right: 20%;
   margin-bottom: 30%;
+  margin-top: 15%;
 }
 
 #learnmore {
-  color: #797468;
-  text-decoration: underline;
   /* display: none; */
 }
 
 a {
   text-decoration: none;
+  color: #AFAB9F;
+}
+
+#nav1, #nav2, #nav3, #nav4, #joeholder {
   color: #797468;
 }
 

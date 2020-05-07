@@ -1,6 +1,10 @@
 $(document).ready(function() {
   // all js goes in here
   console.log("we loaded");
+  // let mql = window.matchMedia('(min-width: 767px)');
+  //
+  // document.querySelector(".mq-value").innerText = mql.matches;
+  // if ($(window).width() >= 767 px) {
 
 
   $("#nav1")
@@ -156,6 +160,6 @@ $(document).ready(function() {
     $("#pbg-pic").css("max-width", "40%");
   })
 
-
+  // }
 
 });

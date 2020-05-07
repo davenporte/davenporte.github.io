@@ -233,7 +233,6 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
-  justify-content: space-evenly;
   align-content: center;
   margin: 5%;
   margin-bottom: 22%;

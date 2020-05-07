@@ -197,6 +197,7 @@ a {
   font-size: 12px;
   margin-right: 10%;
   font-family: serif;
+  display: none;
 }
 
 #distraction2 {
@@ -212,6 +213,7 @@ a {
   font-size: 12px;
   margin-right: 10%;
   font-family: serif;
+  display: none;
 }
 
 #distraction3 {
@@ -227,6 +229,7 @@ a {
   font-size: 12px;
   margin-right: 10%;
   font-family: serif;
+  display: none;
 }
 
 .biostrap-grid-container {
@@ -254,6 +257,7 @@ a {
   font-size: 12px;
   margin-right: 10%;
   font-family: serif;
+  display: none;
 }
 
 #biostrap2 {
@@ -269,6 +273,7 @@ a {
   font-size: 12px;
   margin-right: 10%;
   font-family: serif;
+  display: none;
 }
 
 .off-grid-container {
@@ -296,6 +301,7 @@ a {
   margin-right: 10%;
   padding-bottom: 15%;
   font-family: serif;
+  color: transparent;
 }
 
 #off2 {
@@ -312,6 +318,7 @@ a {
   margin-right: 10%;
   padding-bottom: 15%;
   font-family: serif;
+  display: none;
 }
 
 #off3 {
@@ -327,6 +334,7 @@ a {
   font-size: 12px;
   margin-right: 10%;
   font-family: serif;
+  display: none;
 }
 
 #off4 {
@@ -345,9 +353,10 @@ a {
   padding-left: 13%;
   padding-right: 13%;
   font-family: serif;
+  display: none;
 }
 
-.tmh-grid-container {
+/* .tmh-grid-container {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
@@ -371,8 +380,7 @@ a {
   font-size: 12px;
   margin-right: 10%;
   font-family: serif;
-}
-
+} */
 #pbg-pic {
   max-width: 40%;
   height: auto;
@@ -390,4 +398,5 @@ a {
   margin-left: 30%;
   margin-right: 30%;
   margin-bottom: 15%;
+  display: none;
 }
